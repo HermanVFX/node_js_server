@@ -6,7 +6,6 @@ const require = createRequire(import.meta.url);
 
 const express = require('express');
 const wmic = require("wmic");
-var iconv = require('iconv-lite');
 const path = require('path');
 
 const app = express();
